@@ -1,0 +1,120 @@
+.titulosprincipales {
+  font-family: 'Besley', sans-serif;
+  font-size: 45px;
+  color: #000000;
+  height: 8vh;
+  width: 600px;
+  text-align: end;
+     
+  
+  
+
+
+}
+
+.titulosecundario{
+  font-family: 'Besley', sans-serif;
+  font-size: 35px;
+  padding: 8px;
+}
+
+
+.parrafoimportante {
+  font-family: 'Besley', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  padding: 10px;
+      
+  
+}
+
+.parrafosecundario {
+  font-family: 'Besley', sans-serif;
+  font-size: 15px;
+  padding: 8px;
+  font-style: normal;
+
+
+}
+
+
+
+
+.link {
+  font-family: 'Besley', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;  
+  
+  
+}
+
+
+.imgoogle {
+ 
+ padding: 4px;
+ width: 300px;
+ height: 400px;
+
+ 
+}
+
+.grid-container {
+  display: grid;
+  background-color: #4ea2e7;
+  grid-template-rows: 100px 50px 500px 200px;
+  grid-template-columns: 7fr 5fr 5fr 7fr;
+  grid-gap: 8px;
+  grid-template-areas:
+  "area1 area1 area1 area1 area1"
+  "area5 area5 area5 area5 area5"
+  "area2 area2 area2 area3 area3"
+  "area2 area2 area2 area4 area4"
+  "area6 area6 area6 area6 area6";
+}
+
+.grid-item1 {
+  background-image: linear-gradient(#74c7eb, #4ea2e7);
+  text-align: end;
+  
+  grid-area: area1;
+}
+
+.grid-item2 {
+  background: #4ea2e7;
+  text-align: center;
+  
+  grid-area: area2;
+}
+
+.grid-item3 {
+  background: #f0a35e;
+  text-align: center;
+  border: solid 4px black;
+  
+  grid-area: area3;
+}
+.grid-item4 {
+  background: #f0a35e; 
+  text-align: center;
+  border: black 4px solid;
+  grid-area: area4;
+}
+
+.grid-item5 {
+  
+  text-align: center;
+  border: black 5px solid;
+  grid-area: area5;
+}
+
+.grid-item6 {
+  background-image: linear-gradient(#4ea2e7, #055291);
+  text-align: center;
+  
+  grid-area: area6;
+}
+
+
+
